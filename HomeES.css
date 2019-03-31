@@ -149,3 +149,37 @@
 	border: 3px solid white;
 	border-radius: 3px;
 }
+.Biography .Biography-maintext{
+	padding: 20px;
+	background-color: #034180;
+	font-size: 1.5em;
+	font-family: Space Mono;
+	color: white;
+	text-align: center;
+}
+.Biography .Biography-box{
+	background-color: #0353A4;
+	display: flex;
+}
+.Biography .Biography-box .Biography-img img{
+	margin: 20px;
+	border: 3px solid white;
+	border-radius: 3px;
+}
+.Biography .Biography-box .Biography-text p{
+	padding: 25px;
+	color: white;
+	font-family: Space Mono;
+	font-size: 1.5em;
+}
+.footer{
+	display: flex;
+	background-color: black;
+}
+.footer h3{
+	color: white;
+	padding: 2%;
+	font-size: 1.5em;
+	font-family: Space Mono;
+}
+
