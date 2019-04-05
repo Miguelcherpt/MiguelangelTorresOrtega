@@ -114,12 +114,13 @@
 	background-color: #0353A4;
 	text-align: center;
 }
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 900px) {
   .box-5{
     flex-wrap: wrap;
   }
   .Biography .Biography-box{
   	flex-wrap: wrap;
+  	flex-direction: column;
   }
 }
 .box5-1{
