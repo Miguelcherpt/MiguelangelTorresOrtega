@@ -117,6 +117,7 @@
 @media only screen and (max-width: 900px) {
   .box-5{
     flex-wrap: wrap;
+    flex-direction: column;
   }
   .Biography .Biography-box{
   	flex-wrap: wrap;
