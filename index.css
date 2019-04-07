@@ -118,6 +118,7 @@
   .box-5{
     flex-wrap: wrap;
     flex-direction: column;
+    margin: 0 auto;
   }
   .Biography .Biography-box{
   	flex-wrap: wrap;
