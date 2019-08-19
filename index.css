@@ -118,6 +118,9 @@
   .box-5{
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   .Biography .Biography-box{
   	flex-wrap: wrap;
