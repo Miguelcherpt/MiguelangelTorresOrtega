@@ -110,16 +110,14 @@
 .box-5{
 	font-family: Space Mono;
 	color: white;
-	display: flex;
 	background-color: #0353A4;
 	text-align: center;
 }
 .Biography .Biography-box .Biography-img img{
-	width:300px; 
-	height:93%;
+	width:1%; 
+	height:10%;
 }
 
-@media only screen and (max-width: 900px) {
   .box-5{
   	display: flex;
     flex-wrap: wrap;
@@ -132,13 +130,8 @@
   	flex-wrap: wrap;
   	flex-direction: column;
   }
-}
 .box5-1{
 	margin: 10%;
-	display: flex;
-	flex-wrap: column;
-	flex-direction: column;
-	justify-content: center;
 }
 .box5-1 img{
 	padding: 1px;
@@ -148,10 +141,6 @@
 }
 .box5-2{
 	width: 100%;
-	display: flex;
-	flex-wrap: column;
-	flex-direction: column;
-	justify-content: center;
 	margin-bottom: 10%;
 }
 .box5-2 img{
@@ -161,11 +150,7 @@
 	width: 50%;
 }
 .box5-3{
-	width: 100%;
-	display: flex;
-	flex-wrap: column;
-	flex-direction: column;
-	justify-content: center;
+	width: 100%; 
 	margin-bottom: 10%;
 }
 .box5-3 img{
@@ -200,7 +185,25 @@
 	font-family: Space Mono;
 	font-size: 1.5em;
 }
+
 .footer{
+	margin-top: 10%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	background-color: black;
+	width: 100%;
+}
+.footer h3{
+	color: white;
+	padding: 2%;
+	font-size: 1.5em;
+	font-family: Space Mono;
+}
+@media only screen and (max-width: 900px) {
+
+.footer{
+	margin-top: 10%;
 	display: flex;
 	background-color: black;
 	width: 100%;
@@ -210,4 +213,5 @@
 	padding: 5%;
 	font-size: 1.5em;
 	font-family: Space Mono;
+}
 }
