@@ -17,6 +17,27 @@
 .box-1 .main-text span{
 	font-family: Fonters;
 }
+.nav{
+	width: 30.5%;
+	margin: 15px;
+	position: absolute;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	background-color: white;
+	font-family: Space Mono;
+	border-radius: 3px;
+	top: 10px;
+	left: 33%;
+}
+.nav h3 a{
+	color: black;
+	padding:15px;
+}
+.nav h3 a:hover{
+	color:white;
+	background-color: black
+}
 .language{
 	margin: 15px;
 	position: absolute;
