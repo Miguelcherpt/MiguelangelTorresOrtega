@@ -216,12 +216,12 @@
 	font-size: 1.5em;
 	font-family: Space Mono;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 900px) {
 .nav{
 	top: 25px;
 	left: 10px;
 	margin-bottom: 20px;
-	font-size: 1.6em;
+	font-size: 1.55em;
 }
 .nav h3 a{
 	display: flex;
@@ -246,4 +246,9 @@
 	font-size: 1em;
 	font-family: Space Mono;
 }
+}
+@media only screen and (max-width: 400px) {
+	.nav{
+		font-size: 180%;
+	}
 }
